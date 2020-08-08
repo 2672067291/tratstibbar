@@ -1,4 +1,8 @@
-﻿const dialogue = [
+﻿if ("https:" === document.location.protocol ? true : false) {
+	document.location.href = document.location.href.replace("https:", "http:");
+}
+
+const dialogue = [
     [["Wow, what it is?",
         "It is my own puzzle game.",
         "Where you are is the starting point."
